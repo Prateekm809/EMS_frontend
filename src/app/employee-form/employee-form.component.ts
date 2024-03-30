@@ -36,7 +36,10 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
       </div>
 
       <div class="mb-3">
+<<<<<<< HEAD
       <label for="level">level </label>
+=======
+>>>>>>> 7021045d6852f3286ec79659cb237c6703133c45
           <div class="form-check"> 
             <input class="form-check-input" type="radio"  formControlName="level" name="level" id="level-junior" value="junior"  required>
             <label class="form-check-label" for="level-junior">Junior </label>

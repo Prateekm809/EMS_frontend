@@ -15,12 +15,15 @@ import { EmployeeService } from '../employee.service';
     
   `,
   styles: [
+<<<<<<< HEAD
     `
     h2{
       text-align :center;
       margin-bottom: 20px;
     }
     `
+=======
+>>>>>>> 7021045d6852f3286ec79659cb237c6703133c45
   ]
 })
 export class EditEmployeeComponent implements OnInit {
