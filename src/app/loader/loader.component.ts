@@ -36,11 +36,13 @@ import { Component } from '@angular/core';
 </div>
   `,
   styles: [`
-   .loader {
+  .loader {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh; /* Make the loader full height of the viewport */
 }
+
 .loaderMiniContainer {
   display: flex;
   align-items: center;
@@ -49,6 +51,7 @@ import { Component } from '@angular/core';
   width: 130px;
   height: fit-content;
 }
+
 .barContainer {
   width: 100%;
   height: fit-content;
@@ -59,6 +62,7 @@ import { Component } from '@angular/core';
   gap: 10px;
   background-position: left;
 }
+
 .bar {
   width: 100%;
   height: 8px;
@@ -72,25 +76,21 @@ import { Component } from '@angular/core';
   border-radius: 10px;
   animation: bar ease-in-out 3s infinite alternate-reverse;
 }
-@keyframes bar {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
-}
+
 .bar2 {
   width: 50%;
 }
+
 .svgIcon {
-  position: absolute;
-  left: -25px;
-  margin-top: 18px;
+  /* Remove absolute positioning */
+  /* position: absolute; */
+  /* left: -25px; */
+  /* margin-top: 18px; */
   z-index: 2;
   width: 70%;
   animation: search ease-in-out 3s infinite alternate-reverse;
 }
+
 @keyframes search {
   0% {
     transform: translateX(0%) rotate(70deg);
@@ -100,18 +100,23 @@ import { Component } from '@angular/core';
     transform: translateX(100px) rotate(10deg);
   }
 }
+
 .svgIcon circle,
 line {
   stroke: rgb(162, 55, 255);
 }
+
 .svgIcon circle {
   fill: rgba(98, 65, 142, 0.238);
 }
+
+/* Media query for small screens */
 @media screen and (max-width: 600px) {
   .loader {
     height: 100%; /* Remove full height on small screens */
   }
 }
+
   `]
 })
 export class LoaderComponent {}
