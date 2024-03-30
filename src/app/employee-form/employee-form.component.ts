@@ -36,12 +36,10 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
       </div>
 
       <div class="mb-3">
-<<<<<<< HEAD
-      <label for="level">level </label>
-=======
->>>>>>> 7021045d6852f3286ec79659cb237c6703133c45
-          <div class="form-check"> 
-            <input class="form-check-input" type="radio"  formControlName="level" name="level" id="level-junior" value="junior"  required>
+      <label for="level" class="lel"> level </label>
+      <div class="form-check"> 
+       
+       <input class="form-check-input" type="radio"  formControlName="level" name="level" id="level-junior" value="junior"  required>
             <label class="form-check-label" for="level-junior">Junior </label>
           </div>
           <div class="form-check"> 
@@ -52,7 +50,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
             <input class="form-check-input" type="radio"  formControlName="level" name="level" id="level-senior" value="senior" >
             <label class="form-check-label" for="level-senior">Senior </label>
           </div>
-      </div>
+</div>
 
       <button class="btn btn-primary" type="submit" [disabled]="employeeForm.invalid">Add</button>
 
@@ -64,6 +62,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
       max-width: 560px;
       margin-left: auto;
       margin-right: auto;
+    }
+    .lvl{
+      font-weight:bold;
     }
     `
   ]
