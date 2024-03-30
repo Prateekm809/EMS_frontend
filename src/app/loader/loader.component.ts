@@ -107,7 +107,11 @@ line {
 .svgIcon circle {
   fill: rgba(98, 65, 142, 0.238);
 }
-
+@media screen and (max-width: 600px) {
+  .loader {
+    height: 100%; /* Remove full height on small screens */
+  }
+}
   `]
 })
 export class LoaderComponent {}
