@@ -29,7 +29,6 @@ import { HttpLoaderInterceptor } from './http-loader.interceptor'; // Import Htt
   ],
   providers: [
     LoaderService,
-    // Add HttpLoaderInterceptor to the providers array
     { provide: HTTP_INTERCEPTORS, useClass: HttpLoaderInterceptor, multi: true }
   ],
   bootstrap: [AppComponent]
