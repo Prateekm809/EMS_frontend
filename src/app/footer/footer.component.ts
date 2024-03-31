@@ -101,7 +101,7 @@ import { Component } from '@angular/core';
           <li><a class="fa-brands fa-linkedin"></a></li>
           <li><a class="fa-brands fa-instagram"></a></li>
         </ul>
-        <p class="legal">© 2023 All rights reserved</p>
+        <p class="legal">EMS© 2024 All rights reserved</p>
       </section>
     </footer>
   </body>
