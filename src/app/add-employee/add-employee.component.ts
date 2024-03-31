@@ -12,6 +12,9 @@ import { Employee } from '../employee';
     <app-employee-form (formSubmitted)="addEmployee($event)"></app-employee-form>
   `,
   styles: [
+    `h2{
+      margin-top: 140px !important;
+    }`
   ]
 })
 export class AddEmployeeComponent {

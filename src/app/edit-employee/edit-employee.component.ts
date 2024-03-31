@@ -19,6 +19,7 @@ import { EmployeeService } from '../employee.service';
     h2{
       text-align :center;
       margin-bottom: 20px;
+      margin-top: 140px !important;
     }
     `
 

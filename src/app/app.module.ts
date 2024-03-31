@@ -10,7 +10,9 @@ import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { EditEmployeeComponent } from './edit-employee/edit-employee.component';
 import { LoaderComponent } from './loader/loader.component';
 import { LoaderService } from './loader.service';
-import { HttpLoaderInterceptor } from './http-loader.interceptor'; // Import HttpLoaderInterceptor
+import { HttpLoaderInterceptor } from './http-loader.interceptor';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component'; // Import HttpLoaderInterceptor
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HttpLoaderInterceptor } from './http-loader.interceptor'; // Import Htt
     EmployeeFormComponent,
     AddEmployeeComponent,
     EditEmployeeComponent,
-    LoaderComponent
+    LoaderComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

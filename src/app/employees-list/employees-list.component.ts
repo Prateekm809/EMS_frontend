@@ -6,9 +6,9 @@ import { EmployeeService } from '../employee.service';
 @Component({
   selector: 'app-employees-list',
   template: `
-   <h2 class="text-center m-5"> Employees List </h2>
+   <h2 class="text-center m-5" style=""> Employees List </h2>
 
-   <table class="table table-striped table-bordered">
+   <table class="table table-striped table-bordered" style="margin-top: 20px;">
         <thead>
           <tr> 
             <th>Name </th>
@@ -42,7 +42,8 @@ import { EmployeeService } from '../employee.service';
   `,
   styles: [`
 h2{
-  color: 
+  
+  margin-top: 140px !important;
 }
 
   table {
