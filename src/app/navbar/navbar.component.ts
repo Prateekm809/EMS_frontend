@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
       <div class="header">
         <div class="logo"><a href="#"><img src="https://i.ibb.co/dPJbsmR/Designs.png" alt="Designs" border="0"></a>  </div>
         <div class="navbar" id="nav"><ul>
-            <li><a href="home"><span title="HOME">Home</span></a></li>
+            <li><a href="#"><span title="HOME">Home</span></a></li>
         </ul></div>
     </div>
   `,
