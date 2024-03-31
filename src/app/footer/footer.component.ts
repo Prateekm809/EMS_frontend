@@ -117,7 +117,7 @@ import { Component } from '@angular/core';
   
   html,
   body {
-    height: 100%;
+    height: 80%;
     margin: 0;
     padding: 0;
   }
@@ -175,6 +175,7 @@ import { Component } from '@angular/core';
     display: flex;
     width: 100%;
     height: 370px;
+    z-index: -99;
   }
   
   section {
